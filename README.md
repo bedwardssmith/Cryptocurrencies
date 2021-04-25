@@ -43,7 +43,7 @@
 <p>A 2D scatter plot was then created using the revised dataframe.</p>
 <img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/2d_plot.png">
 <h2>Results</h2>
-<p>The first diagram that was created was the elbow curve which is used to determine the best K value.  When looking at an elbow curve you are looking at the point to which the line shifts to a strong horizontal line.  In our case the strong horizontal line starts at 4.  This value was then used in the K-Means model; n_clusters=4.  It was this model that was used to produce the 3D plot which shows that there are in fact 4 distinct clusters.</p>
+<p>The first diagram that was created was the elbow curve which is used to determine the best K value.  When looking at an elbow curve you are looking for the point to which the line shifts to a strong horizontal line.  In our case the strong horizontal line starts at 4.  This value was then used in the K-Means model; n_clusters=4.  This model was then used to produce the 3D plot which shows that there are in fact 4 distinct clusters.</p>
 <p>The final diagram produced is a 2D plot containing only 2 features, total coin supply and total coins mined, from this we can see that these features on their own do not create distinct clusters.</p>
 
 
