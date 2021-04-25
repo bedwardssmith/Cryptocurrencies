@@ -7,9 +7,9 @@
 <p>The first step in using unsupervised machine learning is data selection.  In this case a dataset was used containing trading information for 532 different cryptocurrencies. This step is followed by data processing where data was cleansed for use by the unsupervised machine learning algorithm.</p>
 <h3>Processing</h3>
 <p>First step was to filter the data to include only cryptocurrencies that are being traded.</p>
-  <img src=https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/Cryptocurrencies_trading.png”>
+<img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/Cryptocurrencies_trading.png”>
 <p>Null values were checked to ensure that all cryptocurrencies have a working algorithm.</p>
-<img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/active_algorithms.png”>
+<img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/active_algorithms.png">
 <p>The “IsTrading” column was dropped from the dataframe as it provided no relevant information for the analysis.</p>
 <img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/remove_trading_column.png">
 <p>Rows with at least one null value were then dropped from the dataframe.</p>
@@ -18,7 +18,7 @@
 <img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/remove_rows_where_not_mined.png">
 <p>A new dataframe was the created to hold only the currency names.  The coin name was then dropped from the dataframe.</p>
 <p>The get_dummies() method was then used to create variables for algorithm and prooftype which were then stored in a dataframe named “X”.</p>
-<img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/get_dummies.png”>
+<img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/get_dummies.png">
 <p>StandardScaler fit_transform() funtion was then used to standardize the features from the X dataframe.</p>
 <img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/standard_scaler.png">
 <p>PCA was then used to reduce the dimensions to three principal components.</p>
