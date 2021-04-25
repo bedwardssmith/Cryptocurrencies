@@ -7,7 +7,7 @@
 <p>The first step in using unsupervised machine learning is data selection.  In this case a dataset was used containing trading information for 532 different cryptocurrencies. This step is followed by data processing where data was cleansed for use by the unsupervised machine learning algorithm.</p>
 <h3>Processing</h3>
 <p>First step was to filter the data to include only cryptocurrencies that are being traded.</p>
-<img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/Cryptocurrencies_trading.png”>
+<img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/Cryptocurrencies_trading.png">
 <p>Null values were checked to ensure that all cryptocurrencies have a working algorithm.</p>
 <img src="https://github.com/bedwardssmith/Cryptocurrencies/blob/main/Resources/Images/active_algorithms.png">
 <p>The “IsTrading” column was dropped from the dataframe as it provided no relevant information for the analysis.</p>
